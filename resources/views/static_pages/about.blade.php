@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+{{-- <!DOCTYPE html>
 <html>
 <head>
   <title>Weibo App</title>
@@ -6,4 +6,10 @@
 <body>
   <h1>关于页</h1>
 </body>
-</html>
+</html> --}}
+
+@extends('layouts.default')
+@section('title','about page')
+@section('content')
+  <h1>About</h1>
+@stop
