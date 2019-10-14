@@ -37,4 +37,9 @@ class StaticPagesController extends Controller
     {
         return view('static_pages/about');
     }
+
+    public function register()
+    {
+        return view('static_pages/register');
+    }
 }
