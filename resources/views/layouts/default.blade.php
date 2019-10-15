@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
   </head>
   <body>
-
+{{-- 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
         <a class="navbar-brand" href="/">Weibo App</a>
@@ -15,10 +15,12 @@
           <li class="nav-item" ><a class="nav-link" href="/about">about</a></li>
         </ul>
       </div>
-    </nav>
+    </nav> --}}
+    @include('layouts._header')
 
     <div class="container">
       @yield('content')
+      @include('layouts._footer')
     </div>
   </body>
 </html>
